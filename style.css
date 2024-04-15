@@ -1,4 +1,18 @@
 
+
+.container {
+    max-width: 50%;
+    max-height: ;
+    margin: 0 auto; /* Centrar horizontalmente */
+  }
+
+  
+
+
+
+
+
+
 :root{
     --bg-color:#181419;
     --primary-color:#9f3647;
@@ -379,11 +393,12 @@ nav{
 
 
 #footer {
-    align-items: center;
+    align-items:end;
     background-color: var(--third-color);
     display: flex;
     height: 100px;
     width: 100%;
+
 }
 
 #footer a {
