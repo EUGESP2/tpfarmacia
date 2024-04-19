@@ -1,71 +1,28 @@
+<!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Formulario de contacto</title>
-  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contacto-body">
+  
+  <form class="contacto-form">
+    <h2 class="contacto-h2">CONTÁCTANOS</h2>
+    <p class="contacto-label" type="Nombre:"><input class="contacto-input" placeholder="Nombre y Apellido"></input></p>
+    <p class="contacto-label" type="E-mail:"><input class="contacto-input" placeholder="email@email.com"></input></p>
+    <p class="contacto-label" type="Teléfono:"><input class="contacto-input" placeholder="000-000-000"></input></p>
+    <p class="contacto-label" type="Asunto:"><input class="contacto-input" placeholder="Déjanos tu mensaje"></input></p>
+    <button class="contacto-button">Enviar</button>
+    <div class="contacto-div">
+      <span class="contacto-span fa fa-phone"></span>594 0123 654
+      <span class="contacto-span fa fa-envelope-o"></span> contact@farmaciacac.com.ar
+    </div>
+  </form>
  
-  
-  </head>
-  
-
-
-<body>  
-  
-<div class="contact_form">
-
-    <div class="formulario">      
-      <h1>Formulario de contacto</h1>
-        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
-
-
-          <form>       
-
-            
-                <p>
-                    <label for="nombre" class="colocar_nombre">Nombre
-                        <span class="obligatorio">*</span>
-                      </label>
-                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
-                </p>
-              
-                <p>
-                  <label for="email" class="colocar_email">Email
-                    <span class="obligatorio">*</span>
-                  </label>
-                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
-                </p>
-            
-                <p>
-                  <label for="telefone" class="colocar_telefono">Teléfono
-                  </label>
-                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
-                </p>    
-              
-                <p>
-                  <label for="asunto" class="colocar_asunto">Asunto
-                    <span class="obligatorio">*</span>
-                  </label>
-                    <input type="text" name="introducir_asunto" id="asunto" required="obligatorio" placeholder="Escribe un asunto">
-                </p>    
-              
-                <p>
-                  <label for="mensaje" class="colocar_mensaje">Mensaje
-                    <span class="obligatorio">*</span>
-                  </label>                     
-                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                </p>                    
-              
-                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
-
-                <p class="aviso">
-                  <span class="obligatorio"> * </span>los campos son obligatorios.
-                </p>          
-            
-          </form>
-    </div>  
-  </div>
-
-
 </body>
+
 </html>
