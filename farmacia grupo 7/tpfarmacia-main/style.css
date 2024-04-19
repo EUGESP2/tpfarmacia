@@ -17,34 +17,33 @@
 
 .card-banner h2,
 .card-banner div h2 {
-    margin: 0 auto;
     text-align: center;
-    color: #FFF; /* Cambia el color del texto a blanco */
-    font-size: 3vw; /* Ajusta el tamaño de fuente según sea necesario */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
-    padding: 10px; /* Ajusta el relleno para que el texto no se superponga con el borde */
-    text-align: center; /* Centra el texto horizontalmente */
-    margin: 0 auto; /* Centra el elemento horizontalmente */
+    color: #FFF
+    font-size: 3vw; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    text-align: center;
+    margin: 0 auto;
 }
 
 
 .card-banner h1 {
     color: #FFF;
     font-size: 4vw;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
-    padding: 10px; /* Ajusta el relleno para que el texto no se superponga con el borde */
-    text-align: center; /* Centra el texto horizontalmente */
-    margin: 0 auto; /* Centra el elemento horizontalmente */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+    text-align: center;
+    margin: 0 auto; 
 
 }
 .card-banner h2 {
     color: #FFF;
     margin-bottom: 20px;
-    font-size: 3vw; /* Ajusta el tamaño de fuente según sea necesario */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
-    padding: 10px; /* Ajusta el relleno para que el texto no se superponga con el borde */
-    margin: 0 auto; /* Centra el elemento horizontalmente */
-    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 3vw; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    margin: 0 auto; 
+    text-align: center; 
     
 }
 
