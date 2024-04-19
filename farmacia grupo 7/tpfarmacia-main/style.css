@@ -26,7 +26,7 @@
     font-size: 4vw;
 }
 .card-banner h2{
-    color: #006666;
+    color: #FFF;
     margin-bottom: 20px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 nav{
-    background-color: #006666;
+    background-color: #006644;
     margin: auto;
     font-size: 16px;
 
@@ -69,7 +69,7 @@ a{
 }
 
 .menu-horizontal > li:hover{
-background-color:006666;
+background-color:#006666;
 }
 
 .menu-vertical{
@@ -77,7 +77,7 @@ background-color:006666;
     display: none;
     list-style: none;
     width: 200px;
-    background-color:006666;
+    background-color:#006666;
 }
 
 .menu-horizontal li:hover .menu-vertical{
@@ -98,11 +98,15 @@ background-color:006666;
     margin-right:20px;
 }
 
-.col-6{ background: #198754;}
-.col-8{background: #198754;}
+.col-6{ background: #006644;
+      }
+.col-8{background: #006644;
+      }
 .container-fluid  {border: #000 auto transparent;}
-.row {border: #198754 1px solid;}
-.col {border: #198754 1px solid;}
+.row {border: #006644 1px solid;
+     }
+.col {border: #006644 1px solid;
+     }
 
 /* Estilos personalizados para el carrusel */
 .carousel {
@@ -123,7 +127,7 @@ background-color:006666;
 
 /* Estilos para el contenedor */
 .fondo-color {
-    background-color:#198754;
+    background-color:#006644;
     padding: 20px;
     height: 300px;
     max-width: 100%;
@@ -152,7 +156,7 @@ img:hover {
     transform: scale(1.1);
     }
   .footer{
-    background-color:#198754;
+    background-color:#006644;
     padding: auto;
     margin-top: 20px;
     color: white;
@@ -164,7 +168,7 @@ img:hover {
 /*Estilos para formulario de contacto*/
 
 .contacto-body {
-    background: #198754;
+    background: #006644;
     margin: 0;
 }
 
