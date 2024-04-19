@@ -15,14 +15,16 @@
 
 #banner{ margin-top: 100px ;}
 
-#banner h2 {
+#banner .card-banner div h2 {
     text-align: center;
     color: #FFF;
     font-size: 3vw; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     padding: 10px; 
+    text-align: center;
     margin: 0 auto;
 }
+
 
 .card-banner h1 {
     color: #FFF;
@@ -33,15 +35,16 @@
     margin: 0 auto; 
 
 }
-#banner .card-banner h2,
-#banner .card-banner div h2 {
-    text-align: center;
+#banner .card-banner h2 {
     color: #FFF;
+    margin-bottom: 20px;
     font-size: 3vw; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     padding: 10px; 
-    margin: 0 auto;
-    }
+    margin: 0 auto; 
+    text-align: center; 
+    
+}
 
 
 * {
