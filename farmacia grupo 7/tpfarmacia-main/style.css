@@ -15,36 +15,21 @@
 
 #banner{ margin-top: 100px ;}
 
-.card-banner div h2 {
-    text-align: center;
-    color: #FFF;
-    font-size: 3vw; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    padding: 10px; 
-    text-align: center;
+.card-banner, div h2{
     margin: 0 auto;
-}
-
-
-.card-banner h1 {
-    color: #FFF;
-    font-size: 4vw;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    padding: 10px; 
     text-align: center;
-    margin: 0 auto; 
+    padding: 0px 160px;
+}
 
+.card-banner h1{
+    color:#FFF;
+    font-size: 4vw;
 }
-#banner .card-banner h2 {
-    color: #FFF;
+.card-banner h2{
+    color: #006666;
     margin-bottom: 20px;
-    font-size: 3vw; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 10px; 
-    margin: 0 auto; 
-    text-align: center; 
-    
 }
+
 
 
 * {
