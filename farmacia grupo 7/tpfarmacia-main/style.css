@@ -19,6 +19,7 @@
     margin: 0 auto;
     text-align: center;
     padding: 0px 160px;
+    color: #FFF;
 }
 
 .card-banner h1{
@@ -38,7 +39,7 @@
 }
 
 nav{
-    background-color: #006644;
+    background-color: #198754;
     margin: auto;
     font-size: 16px;
 
@@ -98,14 +99,14 @@ background-color:#006666;
     margin-right:20px;
 }
 
-.col-6{ background: #006644;
+.col-6{ background: #198754;
       }
-.col-8{background: #006644;
+.col-8{background: #198754;
       }
 .container-fluid  {border: #000 auto transparent;}
-.row {border: #006644 1px solid;
+.row {border: #198754 1px solid;
      }
-.col {border: #006644 1px solid;
+.col {border: #198754 1px solid;
      }
 
 /* Estilos personalizados para el carrusel */
@@ -127,7 +128,7 @@ background-color:#006666;
 
 /* Estilos para el contenedor */
 .fondo-color {
-    background-color:#006644;
+    background-color:#198754;
     padding: 20px;
     height: 300px;
     max-width: 100%;
@@ -156,7 +157,7 @@ img:hover {
     transform: scale(1.1);
     }
   .footer{
-    background-color:#006644;
+    background-color:#198754;
     padding: auto;
     margin-top: 20px;
     color: white;
@@ -168,7 +169,7 @@ img:hover {
 /*Estilos para formulario de contacto*/
 
 .contacto-body {
-    background: #006644;
+    background: #198754;
     margin: 0;
 }
 
