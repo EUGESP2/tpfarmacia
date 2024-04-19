@@ -23,7 +23,6 @@
     color: #FFF;
     font-size: 3vw; /* Ajusta el tamaño de fuente según sea necesario */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
-    border: 2px solid #FFF; /* Agrega un borde blanco alrededor del texto */
     padding: 10px; /* Ajusta el relleno para que el texto no se superponga con el borde */
 }
 
@@ -32,7 +31,6 @@
     color: #FFF;
     font-size: 4vw;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
-    border: 2px solid #FFF; /* Agrega un borde blanco alrededor del texto */
     padding: 10px; /* Ajusta el relleno para que el texto no se superponga con el borde */
 }
 
@@ -42,7 +40,6 @@
     margin-bottom: 20px;
     font-size: 3vw; /* Ajusta el tamaño de fuente según sea necesario */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
-    border: 2px solid #FFF; /* Agrega un borde blanco alrededor del texto */
     padding: 10px; /* Ajusta el relleno para que el texto no se superponga con el borde */
 }
 
