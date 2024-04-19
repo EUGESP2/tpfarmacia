@@ -15,21 +15,37 @@
 
 #banner{ margin-top: 100px ;}
 
-.card-banner, div h2{
+.card-banner h2,
+.card-banner div h2 {
     margin: 0 auto;
     text-align: center;
     padding: 0px 160px;
     color: #FFF;
+    font-size: 3vw; /* Ajusta el tamaño de fuente según sea necesario */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+    border: 2px solid #FFF; /* Agrega un borde blanco alrededor del texto */
+    padding: 10px; /* Ajusta el relleno para que el texto no se superponga con el borde */
 }
 
-.card-banner h1{
-    color:#FFF;
+
+.card-banner h1 {
+    color: #FFF;
     font-size: 4vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+    border: 2px solid #FFF; /* Agrega un borde blanco alrededor del texto */
+    padding: 10px; /* Ajusta el relleno para que el texto no se superponga con el borde */
 }
-.card-banner h2{
+
+}
+.card-banner h2 {
     color: #FFF;
     margin-bottom: 20px;
+    font-size: 3vw; /* Ajusta el tamaño de fuente según sea necesario */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto */
+    border: 2px solid #FFF; /* Agrega un borde blanco alrededor del texto */
+    padding: 10px; /* Ajusta el relleno para que el texto no se superponga con el borde */
 }
+
 
 * {
     margin: 0;
