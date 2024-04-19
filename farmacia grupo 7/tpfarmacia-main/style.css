@@ -10,7 +10,10 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
 }
+
+#banner{ margin-top: 100px ;}
 
 .card-banner, div h2{
     margin: 0 auto;
@@ -38,6 +41,7 @@ nav{
     background-color: #006400;
     margin: auto;
     font-size: 16px;
+
 }
 
 .navbar-brand{
@@ -93,6 +97,12 @@ background-color:limegreen;
     text-decoration: none;
     margin-right:20px;
 }
+
+.col-6{ background: #198754;}
+.col-8{background: #198754;}
+.container-fluid  {border: #000 auto transparent;}
+.row {border: #198754 1px solid;}
+.col {border: #198754 1px solid;}
 
 /* Estilos personalizados para el carrusel */
 .carousel {
