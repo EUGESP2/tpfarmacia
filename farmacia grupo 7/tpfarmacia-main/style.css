@@ -15,7 +15,7 @@
 
 #banner{ margin-top: 100px ;}
 
-#banner .card-banner div h2 {
+.card-banner div h2 {
     text-align: center;
     color: #FFF;
     font-size: 3vw; 
