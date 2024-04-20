@@ -268,7 +268,34 @@ img:hover {
 .contacto-span {
     margin: 0 7px 0 15px;
 }
- 
+
+
+
+.whatsapp-fijo {
+    position: fixed;
+    bottom: 20px; /* Distancia desde abajo */
+    right: 20px; /* Distancia desde la derecha */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+
+.whatsapp-fijo a {
+    display: block;
+    width: 60px; /* Ancho del ícono */
+    height: 60px; /* Altura del ícono */
+    background-color: #25D366; /* Color de fondo del ícono */
+    border-radius: 50%; /* Borde redondeado */
+    text-align: center;
+    line-height: 60px; /* Centrar verticalmente el ícono */
+    font-size: 30px; /* Tamaño del ícono */
+    color: #FFF; /* Color del ícono */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.whatsapp-fijo a:hover {
+    background-color: #128C7E; /* Cambia de color al pasar el mouse */
+}
+
 
   
 
