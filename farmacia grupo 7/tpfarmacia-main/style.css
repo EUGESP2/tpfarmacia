@@ -2,26 +2,26 @@
     background-image: url(img/banner\ farmacia.jpg);
     background-size: cover;
     background-position: center;
-    height: 25%;
+    min-height: 25%; /* Antes era height: 25%*/
+    height: 80vh;
     box-shadow:inset 0 0 0 2000px rgba(84, 84, 84, 0.5);
+    margin-top: 100px;
 }
 .d-flex{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    
 }
 
-#banner{ margin-top: 100px ;}
-
-.card-banner, div h2{
-    color: #FFF
+.card-banner, div h2 { 
+    color: #FFF;
     margin: 0 auto;
     text-align: center;
     font-size: 3vw; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     padding: 0px 160px;
+    
 }
 
 .card-banner h1{
@@ -56,7 +56,6 @@ nav{
     background-color: #198754;
     margin: auto;
     font-size: 16px;
-
 }
 
 .navbar-brand{
@@ -72,7 +71,7 @@ a{
 .menu-horizontal{
     list-style: none;
     display: flex;
-   font-weight: bolder;
+    font-weight: bolder;
     justify-content: space-around;
 }
 
@@ -82,7 +81,7 @@ a{
     color: white;
     text-decoration: none;
 }
-
+.menu-horizontal > li { transition: .5s background ease-in-out; }
 .menu-horizontal > li:hover{
 background-color:#006666;
 }
@@ -99,7 +98,12 @@ background-color:#006666;
     display: block;
     width: auto;
 }
-
+.menu-vertical li { 
+    text-align: center;
+    width: 90%;
+    padding: 10px;
+    transition: .5s background ease-in-out;
+}
 .menu-vertical li:hover{
     background-color: lightgreen;
     color: white;
@@ -125,7 +129,8 @@ background-color:#006666;
 
 /* Estilos personalizados para el carrusel */
 .carousel {
-    max-width: 300px; /* Máximo ancho del carrusel */
+    /*max-width: 300px; /* Máximo ancho del carrusel */
+    max-width: 276px;
     margin: 0 auto; /* Centrar horizontalmente */
   }
   .carousel-item img {
@@ -137,7 +142,9 @@ background-color:#006666;
   .carousel-control-prev,
 .carousel-control-next {
   width: 5%; /* Ajusta el ancho según sea necesario */
-  top: 50%; /* Alinea verticalmente al centro */
+  /*top: 50%; /* Alinea verticalmente al centro */
+  margin: 0 -20px;
+  scale: 1.5;
 }
 
 /* Estilos para el contenedor */
@@ -176,7 +183,7 @@ img:hover {
     margin-top: 20px;
     color: white;
     height: 50px;
-    justify-content: center
+    justify-content: center;
     align-items: center;
   }
 
@@ -189,7 +196,7 @@ img:hover {
 
 .contacto-form {
     width: 340px;
-    height: 440px;
+    height: 540px;
     background: #e6e6e6;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
