@@ -4,7 +4,7 @@
   background-position: center;
   min-height: 25%;
   /* Antes era height: 25%*/
-  height: 90vh;
+  height: 30vh;
   box-shadow: inset 0 0 0 2000px rgba(84, 84, 84, 0.5);
   margin-top: 100px;
   min-width: 100vw;
