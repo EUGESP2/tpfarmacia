@@ -69,6 +69,7 @@ nav {
   font-weight: bold;
 }
 
+
 a {
   text-decoration: none;
 }
@@ -360,4 +361,8 @@ img:hover {
   .menu-horizontal {
     display: none;
   }
+}
+
+#registro {
+  margin-left: auto;
 }
