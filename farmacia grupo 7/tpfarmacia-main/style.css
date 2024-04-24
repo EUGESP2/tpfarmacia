@@ -353,3 +353,11 @@ img:hover {
   background-color: #128c7e;
   /* Cambia de color al pasar el mouse */
 }
+
+
+
+@media (min-width: 576px) {
+  .menu-horizontal {
+    display: none;
+  }
+}
