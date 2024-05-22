@@ -27,7 +27,31 @@
   <link rel="icon" href="img\farmacia.ico.png">
   
 </head>
-
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="loginModal">Iniciar sesión</h1>
+      </div>
+      <div class="modal-body">
+        <form id="loginForm">
+          <div class="mb-3">
+            <label for="InputEmail" class="form-label">Dirección de Email</label>
+            <input type="email" class="form-control" id="userEmail" aria-describedby="emailHelp" placeholder="ejemplo@ejemplo.com">
+            <div class="error" id="error-email"></div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="contraseña" placeholder="contraseña">
+            <div class="error" id="error-password"></div>
+          </div>
+          <button type="submit" class="btn btn-primary" id="ingresar">Ingresar</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
  
 <body>
@@ -56,7 +80,7 @@
           <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
            </ul>
              <ul class="navbar-nav ml-auto" id="registro">
-              <li class="nav-item"><a class="nav-link" href="#">Iniciar sesión</a></li>
+              <li class="nav-item"><button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" href="#">Iniciar sesión</button></li>
             <li class="nav-item"><a class="nav-link" href="#">Registrarse</a></li>
           </ul>
         </div>
@@ -202,6 +226,7 @@
     
   
     <!-- Bootstrap JS y scripts adicionales -->
+    <script src="codigo.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
