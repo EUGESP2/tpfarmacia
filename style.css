@@ -366,3 +366,16 @@ img:hover {
 #registro {
   margin-left: auto;
 }
+
+table{
+  border-collapse: collapse;
+}
+th, td{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+img{
+  height: 100px;
+  width: auto;
+}

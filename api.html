@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Farmacia CaC</title>
 </head>
 <style>
-    table{
+    table {
         border-collapse: collapse;
     }
-    th, td{
+
+    th,
+    td {
         border: 1px solid black;
         padding: 5px;
     }
 
-    img{
-        height: 30px;
+    img {
+        height: 100px;
         width: auto;
     }
 </style>
+
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Title</th>
-                <th>Condition</th>
-                <th>thumbnail_id</th>
-                <th>catalog_product_id</th>
-                <th>listing_type_id</th>
-                <th>permalink</th>
-                <th>thumbnail</th>
-                <th>currency_id</th>
-                <th>price</th>
-            </tr>
-        </thead>`
-        <tbody id="id-table-body"></tbody>
-    </table>
-    <script src="api.js"></script>
+    <h1 class="text-center p-2 bg-info fs-3 mb-3">Listado de productos de farmacia</h1>
+    <div class="container">
+        <div>
+            <button class="btn btn-primary mb-3" onclick="getProductos()">Ver lista de productos</button>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Título</th>
+                    <th scope="col">Imagen</th>
+                </tr>
+            </thead>`
+            <tbody id="productos"></tbody>
+        </table>
+        <script src="api.js"></script>
+
 </body>
+
 </html>

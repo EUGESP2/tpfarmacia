@@ -1,30 +1,26 @@
-async function getIDdata() {
-    const response = await fetch('https://api.mercadolibre.com/sites/MLA/search?q=farmacia&limit=5#json')
-    const IDdata = await response.json()
-    return IDdata
-}
+function getProductos() {
+        const respuesta = fetch(`https://api.mercadolibre.com/sites/MLA/search?q=farmacia&limit=20#options`);
 
-async function displayIDtable(){
-    const IDNumber = await getIDdata()
-    console.log(IDNumber)
+        //2 invocar
+        respuesta
+            .then(response => response.json())
+            .then(response => renderProd(response))//fulfilled
+            .catch(error => dibujarError(error))//rejected
+      }
 
-    const IDtablebody = document.getElementById('id-table-body')
-
-    for (let ID_ of IDNumber){
-        const row = document.createElement('tr')
-        const nameCell = document.createElement('td')
-        nameCell.textContent = ID_.name
-        row.appendChild(nameCell)
-
-        const thumbnail_id = document.createElement('td')
-        const thumbnail = document.createElement('img')
-        thumbnail.src = ID_.thumbnail
-        thumbnail_id.appendChild(thumbnail)
-        row.appendChild(thumbnail_id)
-
-        IDtablebody.appendChild(row)
-
-    }
-}
-
-displayIDtable()
+      function renderProd(response) {
+        const productos = response.results;
+        let rows = '';
+        for(let prod of productos) {
+            rows += `
+            <tr>
+                <td>${prod.title}</td>
+                <td>
+                  <img src="${prod.thumbnail}" alt="" class="img-fluid">
+                </td>
+            </tr>
+            `
+        }
+        // document.getElementById("productos").innerHTML = rows;
+        document.querySelector('#productos').innerHTML = rows;
+    }    
